@@ -1,16 +1,16 @@
 cmake_minimum_required(VERSION 3.13 FATAL_ERROR)
 
-project(liblus 
+project(liblus
     VERSION 0.1.0
     DESCRIPTION "A non-standard c++ framework suite of my personal projects"
     LANGUAGES CXX)
 
 OPTION(LUS_CORE         "Build the core sublib..........................[liblus.a]" ON)
-OPTION(LUS_IOLISTENER   "Build the IO sublib............................[lus_iolistener.a]" OFF)
-OPTION(LUS_LEXER        "Build the lexer sublib.........................[lus_lexer.a]" OFF)
-OPTION(LUS_EST          "Build the est (Expression Syntax Tree) sublib..[lus_est.a]" OFF)
-OPTION(LUS_TUI          "Build the console ANSI UI  sublib..............[lus_tui.a]" OFF)
-OPTION(LUS_TESTS        "Build the tests................................[framework_tests_app/tests.app]" OFF)
+OPTION(LUS_IOLISTENER   "Build the IO sublib............................[lus_iolistener.a]" ON)
+OPTION(LUS_LEXER        "Build the lexer sublib.........................[lus_lexer.a]" ON)
+OPTION(LUS_EST          "Build the est (Expression Syntax Tree) sublib..[lus_est.a]" ON)
+OPTION(LUS_TUI          "Build the console ANSI UI  sublib..............[lus_tui.a]" ON)
+OPTION(LUS_TESTS        "Build the tests................................[framework_tests_app/tests.app]" ON)
 
 
 if(LUS_CORE)
