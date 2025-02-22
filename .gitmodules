@@ -1,0 +1,15 @@
+[submodule "lus"]
+	path = lus
+	url = git@github.com:oldlonecoder/lus.git
+[submodule "lus_iolistener"]
+	path = lus_iolistener
+	url = git@github.com:oldlonecoder/lus_iolistener.git
+[submodule "lus_lexer"]
+	path = lus_lexer
+	url = git@github.com:oldlonecoder/lus_lexer.git
+[submodule "lus_est"]
+	path = lus_est
+	url = git@github.com:oldlonecoder/lus_est.git
+[submodule "lus_tui"]
+	path = lus_tui
+	url = git@github.com:oldlonecoder/lus_tui.git
