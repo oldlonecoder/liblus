@@ -1,3 +1,5 @@
+cmake_minimum_required(VERSION 3.13 FATAL_ERROR)
+
 project(liblus 
     VERSION 0.1.0
     DESCRIPTION "A non-standard c++ framework suite of my personal projects"
